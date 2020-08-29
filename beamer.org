@@ -1,0 +1,48 @@
+#+STARTUP: beamer
+#+TITLE: My First Beamer Presentation
+#+SUBTITLE: With Emacs 27.1
+#+AUTHOR: Author Name
+#+EMAIL: author.name@domain.com
+#+OPTIONS: H:2 num:t toc:t
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: CambridgeUS
+
+* The First Section
+
+** The first slide
+
+  - Foo
+  - Bar
+  - Baz
+    - Description :: Something, something, something, *complete*
+    - More :: Something, something, /Dark Side/
+
+* Another Section
+
+** With another slide
+
+  1. List item
+  2. Another list item
+  3. Monospace code ~int main~
+    - With a sublist
+    - Two items
+  4. =Verbatim= can be done too
+
+** Two slides on one section
+
+   | Tables | Are easy |
+   |--------+----------|
+   | /      | <        |
+   | One    | Um       |
+   | Two    | Dois     |
+   | Three  | Três     |
+   | Four   | Quatro   |
+
+* Conclusion
+
+** Thank you!
+
+   #+BEGIN_CENTER
+   Questions?
+   #+END_CENTER
